@@ -1,0 +1,90 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url('itb_kampus_cirebon.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+}
+
+#logo-fti {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 100px;
+    cursor: pointer;
+}
+
+#teknik-industri {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 100px;
+    cursor: pointer;
+}
+
+#content {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#password-form {
+    margin: 20px 0;
+}
+
+input {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.hidden {
+    display: none;
+}
+
+#animation-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#animation-container h1 {
+    font-size: 2em;
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+}
+
+#video-container {
+    margin-top: 20px;
+}
+
+@keyframes fadeIn {
+    to { opacity: 1; }
+}

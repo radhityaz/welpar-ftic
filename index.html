@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome FTIC 2024</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="https://link-fti.com" target="_blank">
+        <img id="logo-fti" src="fti_logo.png" alt="Logo FTI">
+    </a>
+    <a href="https://link-teknik-industri.com" target="_blank">
+        <img id="teknik-industri" src="teknik_industri.png" alt="Teknik Industri">
+    </a>
+    <div id="content">
+        <h1>Welcome FTIC 2024</h1>
+        <div id="password-form">
+            <input type="password" id="password" placeholder="Masukkan passcode">
+            <button onclick="checkCredentials()">Submit</button>
+        </div>
+    </div>
+    <div id="animation-container">
+        <h1 id="welcome-message" class="hidden">Halo FTIC 2024</h1>
+        <div id="video-container" class="hidden">
+            <video id="welcome-video" controls>
+                <source src="path_to_welcome_video.mp4" type="video/mp4">
+                Browser Anda tidak mendukung tag video.
+            </video>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
